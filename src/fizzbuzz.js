@@ -17,7 +17,6 @@ function run(number){
         return run(number -1) + ',' + resolve(number)
          
     }
-    return output
 }
 
 module.exports = { resolve, run }
